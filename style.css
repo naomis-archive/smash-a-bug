@@ -1,0 +1,29 @@
+body {
+  margin: 0;
+  background-color: #331e3d;
+  color: #ffffff;
+  text-align: center;
+}
+
+a {
+  color: #ffffff;
+}
+
+#game-container {
+  align-items: center;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+.game-box {
+  background-image: url("./img/hole.png");
+  background-size: contain;
+  width: 200px;
+  height: 200px;
+  margin: auto;
+}
+
+.bug {
+  width: 200px;
+  height: 200px;
+}

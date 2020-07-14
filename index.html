@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" type="text/css" href="./style.css" />
+    <script src="./game.js"></script>
+    <title>Squash a Bug!</title>
+  </head>
+  <body>
+    <h1>Squash-A-Bug!</h1>
+    <p>
+      For those days when you bang your head on the desk while trying to squash
+      the bugs in your code... when you need to vent your frustration, squash
+      some <em>virtual</em> bugs here!
+    </p>
+    <p>
+      To play, use the box to set the number of bugs you'd like to squash. Click
+      "Start" and the game will begin! Bugs will continue to appear until you've
+      reached the target you set.
+    </p>
+    <input type="number" min="1" id="target" />
+    <button onclick="start()">
+      Start!
+    </button>
+    <p>Target: <span id="score"></span></p>
+    <div id="game-container">
+      <div class="game-box" id=1></div>
+      <div class="game-box" id=2></div>
+      <div class="game-box" id=3></div>
+      <div class="game-box" id=4></div>
+      <div class="game-box" id=5></div>
+      <div class="game-box" id=6></div>
+      <div class="game-box" id=7></div>
+      <div class="game-box" id=8></div>
+      <div class="game-box" id=9></div>
+    </div>
+  </body>
+  <footer>
+    <a href="https://www.nhcarrigan.com">&copy; Nicholas Carrigan</a>
+  </footer>
+</html>
