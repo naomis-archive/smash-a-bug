@@ -18,8 +18,9 @@
       "Start" and the game will begin! Bugs will continue to appear until you've
       reached the target you set.
     </p>
-    <input type="number" min="1" id="target" />
-    <button onclick="start()">
+    <form onsubmit="start(); return false;">
+    <input type="number" min="1" max="100" id="target" />
+    <button type="submit"></form>
       Start!
     </button>
     <p>Target: <span id="score"></span></p>

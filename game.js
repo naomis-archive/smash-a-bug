@@ -1,6 +1,6 @@
 let play;
 function start() {
-  clearInterval(play)
+  clearInterval(play);
   document.getElementById(1).innerHTML = "";
   document.getElementById(2).innerHTML = "";
   document.getElementById(3).innerHTML = "";
@@ -11,8 +11,6 @@ function start() {
   document.getElementById(8).innerHTML = "";
   document.getElementById(9).innerHTML = "";
   const target = document.getElementById("target").value;
-  if (!(parseInt(target) > 0))
-    return alert("Please enter a target number greater than 0.");
   const score = document.getElementById("score");
   score.innerText = target;
   play = setInterval(generateBug, 2000);
