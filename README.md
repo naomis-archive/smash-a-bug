@@ -7,7 +7,7 @@ A programming themed "Whack-a-Mole" clone.
 
 ## Live Version
 
-This page is currently deployed. [View the live website.](https://www.nhcarrigan.com/smash-a-bug)
+This project is archived and thus is not deployed
 
 ## Feedback and Bugs
 
